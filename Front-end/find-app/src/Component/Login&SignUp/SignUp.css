@@ -1,0 +1,45 @@
+.rentalform {
+    background-image: url("https://i.pinimg.com/originals/f2/00/49/f20049b8fad05d06d03a425db861210c.png");
+    min-height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+   }
+  
+  .container {
+    position: absolute;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.521);
+  
+  }
+  
+    #link,#location,#age,#price,#feet{
+    width: 250px;
+    margin-left: 0px;
+    padding: 15px;
+    margin-bottom:30px ;
+    border: none;
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  
+  
+  #submit {
+    background-color: #080808a2;
+    color: rgb(255, 255, 255);
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  #submit:hover {
+    opacity: 1;
+  }
